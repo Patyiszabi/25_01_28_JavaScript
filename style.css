@@ -1,11 +1,12 @@
 nav {
     display: flex;
-    justify-content: center; 
+    justify-content: left; 
+    align-items: center;
     margin: 20px;
-    gap: 20px;
     background-color: antiquewhite;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.5s, transform 0.5s; 
 }
@@ -19,7 +20,7 @@ nav a {
     text-decoration: none;
     color: black;
     transition: color 0.3s, transform 0.3s;
-    float: left;
+    padding: 40px;
 }
 
 nav a:hover {
